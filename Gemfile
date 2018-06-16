@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rack'
-gem 'sinatra'
+gem 'rack', '>= 1.6.0'
+gem 'sinatra', '>= 2.0.2'
 gem 'json'
 gem 'backports', :require => false
